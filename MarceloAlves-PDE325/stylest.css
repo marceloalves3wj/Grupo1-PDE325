@@ -1,0 +1,288 @@
+@font-face {
+    font-family: spotify;
+    src: url('spotify-font.ttf')
+    format('truetype');
+}
+
+
+body {
+    background: #000000;
+}
+
+header {
+    width: auto;
+    height: 70px;
+    background-color: #000000;
+}
+
+#logo {
+    width: auto;
+    height: 40px;
+    float: left;
+    margin-left: 71px;
+    margin-top: 20px;
+}
+
+.navegacao  {
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    text-transform: capitalize;
+}
+
+.navegacao li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.navegacao a {
+    font-family: Helvetica, sans-serif;
+    font-size: 16.0px; 
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.navegacao a:hover {
+    color: #1ED760;
+    cursor: pointer;
+}
+
+.meio {
+    background-color: #2D46B9;
+    width: 100%;
+    height: 570px;
+}
+
+.meio {
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-size: 175%;
+    background-position: 46% 4%;
+    -moz-box-pack: center;
+    justify-content: center;
+    min-height: 846px;
+    
+}
+
+.meio h1 {
+    display: block;
+    font-size: 156px;
+    line-height: 166px;
+    color: #1ED760;
+    letter-spacing: -7px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px auto 0px;
+    padding-top: 200px;
+    font-weight: 700;
+}
+
+.meio h4 {
+    color: #1ED760;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+
+button {
+    background-color: #1ED760;
+    color: #2D46B9;
+    text-align: center;
+    font-size: inherit;
+    padding: 14px 32px;
+    letter-spacing: 1.4px;
+    border-radius: 500px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 16px;
+    margin-left: 500px;
+    margin-top: 45px;
+    border-style: hidden;
+    height: 55px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.03s;
+}
+
+.meio input:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+footer {
+    width: auto;
+    height: 570px;
+    background-color: #000000;
+}
+
+#logo-foot {
+    width: auto;
+    height: 45px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 85px;
+}
+
+.navega-foot {
+    position: absolute;
+    left: 292px;
+    
+}
+
+.navega-foot li {
+    display: inline-block;
+    padding-right: 150px;
+    padding-bottom: 27px;
+}
+
+#dev {
+    margin-left: -28px;
+}
+
+#pa {
+    margin-left: 2px;
+}
+
+#public {
+    margin-left: -61px;
+}
+
+#app {
+    margin-left: -5px;
+}
+
+#sup {
+    margin-left: -13px;
+}
+
+#player {
+    margin-left: -45px;
+}
+
+.navegacao-foot0 li{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 1.5;
+    color: #919496;
+    text-decoration: none;
+    margin-top: 80px;
+    display: inline-block;
+    
+    padding: 27px 65px;
+   
+}
+
+.navega-foot a{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none; 
+    color: white;
+    display: inline-block;
+
+}
+
+.duas-ultimas li{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-left: 200px;
+   
+
+}
+
+#ig-logo {
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 120px;
+    margin-right: 40px;
+} 
+
+#face-logo {
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 120px;
+    margin-right: 80px;
+} 
+
+#tt-logo {
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 120px;
+    margin-right: 40px;
+} 
+
+/*.caixa-foot img{
+    margin-top: 90px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+} */
+
+.caixa-foot a:hover {
+    color: #1ED760;
+    cursor: pointer;
+}
+
+.ll li{
+    margin-left: 80px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: -35px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #919496;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.ll li a {
+    font-size: 12px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #919496;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sptfAB {
+    margin-left: 460px;
+
+}
+
+.br li{
+    font-size: 12px;
+    line-height: 1.5;
+    /*text-decoration: none;
+    color: #919496; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1157px;
+    margin-top: 320px;
+}
+
+.br a{
+    text-decoration: none;
+    color: #919496;
+}
+
