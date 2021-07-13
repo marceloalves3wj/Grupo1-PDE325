@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+header {
+    background-color: black;
+}
+
+.menu {
+    position: relative;
+    padding: 20px 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+nav a {
+    color: white;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#banner {
+    background-color: #2d46b9;
+    color: #1ed760;
+    text-align: center;
+    background-image: url("banner.svg");
+    background-size: 160%;
+    background-position: 50% 6%;
+    padding: 225px 0;
+}
+
+#banner h1 {
+    font-size: 110px;
+    width: 900px;
+    margin: auto;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+#banner p {
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+#botao {
+    background-color: #1ed760;
+    width: 250px;
+    font-family: Helvetica, sans-serif;
+    color: #2d46b9;
+    border-radius: 50px;
+    text-align: center;
+    padding: 15px 0;
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 14px;
+}
+
+#botao:hover {
+    background-color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer1 {
+    width: 1100px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.footer1 ul {
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    padding-left: 98px;
+}
+
+.footer1 .detalhes li {
+    padding-bottom: 24px;
+}
+
+.titulo {
+    color: #868d92;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.social li {
+    background-color: rgb(36, 32, 32);
+    border-radius: 100%;
+    padding: 14px;
+}
+
+.footer2 {
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.footer2 ul {
+    display: inline-block;
+}
+
+.footer2 .detalhes2 li {
+    display: inline-block;
+}
+
+.footer2 a {
+    padding: 0 25px;
+    font-size: small;
+    color: #919496;
+}
+
+.final {
+    list-style: none;
+    padding-left: 330px;
+    text-align: right;
+    font-size: small;
+    color: #919496;
+}
+
+footer ul li {
+    box-sizing: border-box;
+}
